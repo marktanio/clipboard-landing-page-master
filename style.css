@@ -8,9 +8,37 @@
     --light-blue:hsl(233, 100%, 69%);
 }
 
-p{
+.image-container {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+    background-image: url("design/desktop-design.jpg");
+    background-size: cover; /* Resize image to fit container */
+    z-index: -1; /* Ensure image goes behind page content */
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+}
+
+p {
     color:var(--grayish-blue);
-    font-size:16px;
+    font-size:20px;
 }
 
 h1,h2,h6,li{
@@ -27,13 +55,15 @@ a:visited{
     text-decoration: none;
 }
 
-button{
+button {
     border-radius: 40px;
     border-style: none;
-    height: 40px;
+    height: 63px;
     cursor:pointer;
     color: white;
-    width: 200px;
+    width: 240px;
+    margin: 7px;
+    font-size: 20px;
 }
 
 button:hover{
@@ -48,8 +78,9 @@ button:hover{
     background-color: var(--light-blue);
 }
 
-h1{
-    font-size: 40px;
+h1 {
+    font-size: 46px;
+    margin-bottom: 5px;
 }
 
 h2{
@@ -64,4 +95,44 @@ ul{
     list-style: none;
 }
 
+figure {
+    margin-top: 132px;
+    margin-bottom: 29px;
+  }
 
+img {
+    width: 130px;
+  }
+
+.hero p {
+    width: 800px;
+    text-align: center;
+    margin-top: 13px;
+    letter-spacing: -0.1px;
+  }
+
+.cta {
+    margin: 25px 0;
+  }
+
+.sec-2 {
+text-align: center;
+border: 1px black solid;
+margin: 103px 0;
+}
+
+.sec-2 h2 {
+font-size: 36px;
+margin-bottom: 25px;
+}
+
+.sec-2 h2 {
+font-size: 36px;
+margin-bottom: 25px;
+}
+
+.sec-2 p {
+    width: 764px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+}
