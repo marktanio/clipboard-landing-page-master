@@ -38,7 +38,7 @@ main{
 
 p {
     color:var(--grayish-blue);
-    font-size:25px;
+    font-size:21px;
     font-weight: 500;
 }
 
@@ -136,6 +136,7 @@ ul{
     line-height: 1.5;
     letter-spacing: -0.6px;
     margin-top: 27px;
+    font-size: 25px;
 }
 
 .sec-3 {
@@ -144,4 +145,22 @@ ul{
 
 .sec-3 img {
     width: 1000px;
+    position:absolute;
+    right:970px;
+}
+
+.features {
+    position: relative;
+    left: 336px;
+    top: 91px;
+}
+
+.feature-text h6 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+  
+.feature-text p {
+    width: 484px;
 }
