@@ -151,16 +151,54 @@ ul{
 
 .features {
     position: relative;
-    left: 336px;
-    top: 91px;
+    left: 342px;
+    top: 107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 533px;
 }
 
 .feature-text h6 {
     font-size: 32px;
     font-weight: 600;
-    margin: 15px 0;
+    margin: 0 0 15px 0;
 }
   
 .feature-text p {
     width: 484px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.sec-4{
+
+}
+
+.sec-4 h2{
+
+}
+
+.sec-4 p{
+
+}
+
+.sec-5{
+
+}
+
+.sec img{
+
+}
+
+.sec-6{
+
+}
+
+.sec-6 h2{
+
+}
+
+.sec-6 p{
+
 }
