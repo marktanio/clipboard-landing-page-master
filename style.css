@@ -51,11 +51,6 @@ a:hover{
     cursor:pointer;
 }
 
-a:visited{
-    color:var(--dark-grayish-blue);
-    text-decoration: none;
-}
-
 button {
     border-radius: 40px;
     border-style: none;
@@ -93,8 +88,10 @@ h6{
     font-size:20px;
 }
 
-ul{
+ul {
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .hero figure {
@@ -232,34 +229,122 @@ ul{
     text-align: center;
 }
 
-.sec-7{
-
+.sec-7 {
+    display: flex;
+    max-width: 1450px;
+    min-height: 368px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.sec-7 figure{
-
+.features-2 {
+    text-align: center;
+    max-width: 450px;
 }
 
-.sec-7 h6{
-
+.features-2 img {
+    width: 60px;
+    height: auto;
 }
 
-.sec-7 p{
-
+.sec-7 h6 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 37px 0 0 0;
 }
 
-.sec-8{
-
+.sec-8 {
+    display: flex;
+    min-height: 473px;
+    align-items: center;
 }
 
-.sec-9 h2{
-
+.sec-8 figure {
+    margin: 0 auto;
+    width: 298px;
+    text-align: center;
 }
 
-.sec-9 p{
+.sec-8 img {
+    width: 200px;
+  }
 
+.sec-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.sec-9:nth-last-child(){
-    
+.sec-9 h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 8px;
 }
+
+.sec-9 p {
+    font-size: 23px;
+    width: 1000px;
+    text-align: center;
+    margin-top: -5px;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    width: 1920px;
+    background-color: #f2f2f2;
+    align-content: center;
+    justify-content: center;
+    min-height: 150px;
+  }
+
+  footer figure img {
+    width: 50px;
+  }
+
+  footer figure {
+    display: flex;
+    align-items: center;
+    margin: 0 100px 0 10px;
+  }
+
+  footer > section {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+  }
+
+  li {
+    margin: 5px 67px 5px 0;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  nav {
+    align-items: center;
+    display: flex;
+  }
+
+  .soc-med img {
+    width: 25px;
+  }
+
+  .soc-med figure {
+    align-items: center;
+    display: flex;
+    margin: 0 10px;
+  }
+
+li a:visited {
+    color:var(--dark-grayish-blue);
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  
