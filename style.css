@@ -8,20 +8,6 @@
     --light-blue:hsl(233, 100%, 69%);
 }
 
-.image-container {
-    content: ""; /* Empty content for the pseudo-element */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh; /* Adjust height as needed */
-    background-image: url("design/desktop-design.jpg");
-    background-size: cover; /* Resize image to fit container */
-    z-index: -1; /* Ensure image goes behind page content */
-    background-repeat: no-repeat;
-    opacity: 0.5;
-  }
-
 body{
     display: flex;
     flex-direction: column;
@@ -33,7 +19,6 @@ main{
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    border: 1px black solid;
 }
 
 p {
@@ -117,7 +102,6 @@ ul {
 
 .sec-2 {
     text-align: center;
-    border: 1px black solid;
     margin: 116px 0 69px 0;
 }
 
@@ -197,7 +181,6 @@ ul {
 .sec-5 {
     display: flex;
     margin-top: 96px;
-    border: 1px black solid;
     align-items: center;
 }
 
